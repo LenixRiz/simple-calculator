@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class simpleCalculator {
+
+    public static void main(String[] args) {
+        
+        Scanner keyboard = new Scanner(System.in);
+        float a;
+        float b;
+        
+        System.out.println("Input First Number :");
+        a = keyboard.nextFloat();
+        
+        System.out.println("Input Second Number :");
+        b = keyboard.nextFloat();
+        
+        float end = (float) (a + b);
+        
+        System.out.println("Hasilnya");
+        System.out.println(end);
+        
+        System.out.println("Hello World!");
+        
+    }
+}
